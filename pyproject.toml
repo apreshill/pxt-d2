@@ -14,6 +14,5 @@ dependencies = [
     "ipykernel",
 ]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.backends"
+[tool.uv]
+package = false
